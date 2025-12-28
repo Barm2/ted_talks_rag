@@ -9,7 +9,7 @@ from pinecone import Pinecone
 # ================= CONFIG =================
 EMBEDDING_MODEL = "RPRTHPB-text-embedding-3-small"
 CHAT_MODEL = "RPRTHPB-gpt-5-mini"
-TOP_K = 5
+TOP_K = 10
 
 # These must exist in Vercel env vars
 LLMOD_API_KEY = os.environ.get("LLMOD_API_KEY")
