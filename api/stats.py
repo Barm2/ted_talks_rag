@@ -8,7 +8,7 @@ class handler(BaseHTTPRequestHandler):
         config = {
             "chunk_size": 1024,
             "overlap_ratio": 0.2,
-            "top_k": 5
+            "top_k": 10
         }
         
         self.send_response(200)
